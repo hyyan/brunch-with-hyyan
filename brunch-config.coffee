@@ -1,5 +1,5 @@
 exports.config =
-  # See http://brunch.io/#documentation for docs. 
+    # See http://brunch.io/#documentation for docs. 
     paths:
         public: 'public'
 
@@ -12,7 +12,7 @@ exports.config =
         stylesheets:
             joinTo: 
                 'css/app.css': /^((app[\\/]styles(?!-rtl))|bower_components|vendor)/
-                'css/app-rtl.css': /^(app[\\/]styles-rtl)/
+                'css/app-rtl.css': /^(app[\\/]styles-rtl)/	
 
     modules:
         wrapper: false
@@ -21,7 +21,7 @@ exports.config =
     conventions:
         # we don't want javascripts in asset folders to be copied like the one in 
         # the bootstrap assets folder
-        assets: /assets[\\/](?!javascripts)|bower_components[\\/]bootstrap-rtl[\\/]dist/
+        assets: /assets[\\/](?!javascripts)/
 
     plugins:
         sass:
