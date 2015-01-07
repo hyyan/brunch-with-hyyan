@@ -11,8 +11,8 @@ exports.config =
 
         stylesheets:
             joinTo: 
-                'css/app.css': /^((app[\\/]styles(?!-rtl))|bower_components|vendor)/
-                'css/app-rtl.css': /^(app[\\/]styles-rtl)/	
+                'css/app.css': /^((app[\\/]styles(?!-rtl))|bower_components[\\/](?!bootstrap-rtl[\\/]dist[\\/]css[\\/]bootstrap-rtl.css)|vendor)/
+                'css/app-rtl.css': /^(app[\\/]styles-rtl)|(bower_components[\\/]bootstrap-rtl[\\/]dist[\\/]css[\\/]bootstrap-rtl.css)/	
 
     modules:
         wrapper: false

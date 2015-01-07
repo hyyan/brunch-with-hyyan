@@ -1,6 +1,6 @@
 {
     "name": "Your porject name",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "authors": [
         "Hyyan Abo Fakher <Tiribthea4hyyan@gmail.com>"
     ],
@@ -15,6 +15,7 @@
     ],
     "dependencies": {
         "jquery": "1.11.1",
-        "bootstrap-sass-official": "3.2.0+2"
+        "bootstrap-sass-official": "3.2.0+2",
+        "bootstrap-rtl": "~3.2.0"
     }
 }
