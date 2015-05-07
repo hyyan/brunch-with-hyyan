@@ -6,17 +6,24 @@ exports.config =
   files:
     javascripts:
       joinTo:
+        'js/jquery.js': /^(bower_components[\\/]jquery[\\/]dist[\\/]jquery.js)/
         'js/app.js': /^(app[\\/]scripts)/
-        'js/vendor.js': /^(vendor|bower_components)/
+        'js/vendor.js': /^(vendor|bower_components(?![\\/]jquery[\\/]dist[\\/]jquery.js))/
     stylesheets:
       joinTo:
         'css/app.css':[
-           /^((app[\\/]styles(?!-rtl)))/
+           /^(app[\\/]scss[\\/]styles(?!-rtl))/
            /bower_components[\\/](?!bootstrap-rtl[\\/]dist[\\/]css[\\/]bootstrap-rtl.css)/
         ]
         'css/app-rtl.css': [
-          /^(app[\\/]styles-rtl)/
+          /^(app[\\/]scss[\\/]styles-rtl)/
           /(bower_components[\\/]bootstrap-rtl[\\/]dist[\\/]css[\\/]bootstrap-rtl.css)/
+        ]
+        'css/editor.css':[
+           /^(app[\\/]scss[\\/]editor(?!-rtl))/
+        ]
+        'css/editor-rtl.css': [
+          /^(app[\\/]scss[\\/]editor-rtl)/
         ]
 
   modules:
