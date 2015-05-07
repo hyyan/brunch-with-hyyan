@@ -3,7 +3,7 @@
 ### 0.6
 
 * Improved files organization
-* jQuery is compiles to its own file (most developers will replace it with CDN link)
+* jQuery is written to its own file (most developers will replace it with CDN link)
 * Added editor style files (for wordpress support)
 
 ### 0.5
