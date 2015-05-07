@@ -1,21 +1,26 @@
 {
-    "name": "Your porject name",
-    "version": "0.0.0",
-    "authors": [
-        "Hyyan Abo Fakher <Tiribthea4hyyan@gmail.com>"
-    ],
-    "license": "Your project license",
-    "private": "true",
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests"
-    ],
-    "dependencies": {
-        "jquery": "1.11.1",
-        "bootstrap-sass-official": "3.2.0+2",
-        "bootstrap-rtl": "~3.2.0"
+  "name": "Your porject name",
+  "version": "0.0.0",
+  "authors": [
+    "Hyyan Abo Fakher <Tiribthea4hyyan@gmail.com>"
+  ],
+  "license": "Your project license",
+  "private": "true",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1",
+    "bootstrap-sass-official": "x",
+    "bootstrap-rtl": "x"
+  },
+  "overrides": {
+    "bootstrap-rtl": {
+      "dependencies": {}
     }
+  }
 }
