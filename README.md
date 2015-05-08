@@ -1,6 +1,9 @@
 # Brunch With Bower , Bootstrap Sass And jQuery
 
-HTML5 application, built with [Brunch](http://brunch.io).
+[![project status](http://stillmaintained.com/hyyan/brunch-with-hyyan.png)](http://stillmaintained.com/hyyan/bbrunch-with-hyyan)
+[![dependency Status](https://david-dm.org/hyyan/brunch-with-hyyan/status.svg)](https://david-dm.org/hyyan/brunch-with-hyyan#info=dependencies)
+
+HTML5 application, built with [Brunch](http://brunch.io), Bootstrap Sass And jQuery
 
 ## Getting started
 * Install (if you don't have them):
@@ -23,4 +26,7 @@ HTML5 application, built with [Brunch](http://brunch.io).
     * [Brunch site](http://brunch.io)
     * [Sass site](http://sass-lang.com)
     * [Bootstrap site](http://getbootstrap.com)
+   
+## How To User With Wordpress
+You can use the [Brunch Wordpress Theme](https://github.com/hyyan/brunch-wordpress-theme) starter theme , which make use of all features of this skeleton in wordpress context.
 
