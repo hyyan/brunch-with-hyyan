@@ -27,6 +27,6 @@ HTML5 application, built with [Brunch](http://brunch.io), Bootstrap Sass And jQu
     * [Sass site](http://sass-lang.com)
     * [Bootstrap site](http://getbootstrap.com)
    
-## How To User With Wordpress
+## How To Use With Wordpress
 You can use the [Brunch Wordpress Theme](https://github.com/hyyan/brunch-wordpress-theme) starter theme , which make use of all features of this skeleton in wordpress context.
 
