@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### 1.0.0
+
+* Upgrade to the latest version of Brunch
+* Using Brunch Assets Manager to handle assets(fonts,...) copy
+* Force libsass by default instead of ruby 
+
 ### 0.6
 
 * Improved files organization
