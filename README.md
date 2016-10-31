@@ -1,6 +1,6 @@
 # Brunch With Bower , Bootstrap Sass And jQuery
 
-[![project status](http://stillmaintained.com/hyyan/brunch-with-hyyan.png)](http://stillmaintained.com/hyyan/brunch-with-hyyan)
+[![project status](http://www.repostatus.org/badges/latest/active.svg)](http://www.gitchecker.com/hyyan/brunch-with-hyyan)
 [![dependency Status](https://david-dm.org/hyyan/brunch-with-hyyan/status.svg)](https://david-dm.org/hyyan/brunch-with-hyyan#info=dependencies)
 
 HTML5 application, built with [Brunch](http://brunch.io), Bootstrap Sass And jQuery
