@@ -2,7 +2,7 @@
 
 [![project status](http://www.repostatus.org/badges/latest/active.svg)](http://www.gitchecker.com/hyyan/brunch-with-hyyan)
 [![dependency Status](https://david-dm.org/hyyan/brunch-with-hyyan/status.svg)](https://david-dm.org/hyyan/brunch-with-hyyan#info=dependencies)
-[![License](https://poser.pugx.org/hyyan/brunch-with-hyyan/license.svg)](https://github.com/hyyan/brunch-with-hyyan/blob/master/LICENSE)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/hyyan/brunch-with-hyyan/blob/master/LICENSE)
 
 HTML5 application, built with [Brunch](http://brunch.io), Bootstrap Sass And jQuery
 
