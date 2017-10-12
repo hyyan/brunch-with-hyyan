@@ -10,7 +10,7 @@
   "scripts": {
     "postinstall": "bower install",
     "start": "brunch watch --server",
-    "test": "brunch test"
+    "test": "./node_modules/.bin/karma start ./karma.conf.js"
   },
   "dependencies": {
     "assetsmanager-brunch": "^1.8.1",
@@ -21,5 +21,16 @@
     "sass-brunch": "latest",
     "uglify-js-brunch": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "karma": "^1.7.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-mocha": "^1.3.0",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "mocha": "^4.0.1"
+  }
 }
